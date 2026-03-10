@@ -23,7 +23,7 @@ Expected result: 404 Not Found
 ## PUT Requests
 
 AS-07 – Verify POST /products creates new product  
-Expected result: 200 OK and product is created with new ID
+Expected result: 201 Created and product is created with new ID
 
 AS-08 – Verify created product contains correct title  
 Expected result: Title matches the request data
