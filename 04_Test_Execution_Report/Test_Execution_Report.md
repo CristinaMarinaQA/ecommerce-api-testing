@@ -10,3 +10,4 @@
 | AS-07 | POST /products | 201 Created | 201 Created | PASS |
 | AS-08 | POST /products | Title matches request | Title correct | PASS |
 | AS-09 | POST /products | Price matches request | Price correct | PASS |
+| AS-10 | POST /products | 400 Bad Request when title missing | 201 Created | FAIL |
