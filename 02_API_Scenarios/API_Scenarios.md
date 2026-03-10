@@ -13,3 +13,6 @@ Expected result: Category field is present in response
 
 AS-05 – Verify product rating exists  
 Expected result: Rating object with rate and count is returned
+
+AS-06 – Verify GET /products/9999 returns error for non-existing product  
+Expected result: 404 Not Found
