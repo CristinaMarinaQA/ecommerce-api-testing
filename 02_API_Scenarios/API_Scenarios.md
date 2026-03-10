@@ -25,6 +25,9 @@ Expected result: 404 Not Found
 AS-07 – Verify POST /products creates new product  
 Expected result: 201 Created and product is created with new ID
 
+AS-10 – Verify POST /products fails when required fields are missing  
+Expected result: 400 Bad Request
+
 AS-08 – Verify created product contains correct title  
 Expected result: Title matches the request data
 
