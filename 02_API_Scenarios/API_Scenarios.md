@@ -19,3 +19,14 @@ Expected result: Rating object with rate and count is returned
 
 AS-06 – Verify GET /products/9999 returns error for non-existing product  
 Expected result: 404 Not Found
+
+## PUT Requests
+
+AS-07 – Verify POST /products creates new product  
+Expected result: 200 OK and product is created with new ID
+
+AS-08 – Verify created product contains correct title  
+Expected result: Title matches the request data
+
+AS-09 – Verify created product contains correct price  
+Expected result: Price matches the request data
