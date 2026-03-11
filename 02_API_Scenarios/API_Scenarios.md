@@ -44,3 +44,11 @@ Expected result: Title matches the updated value
 
 AS-13 – Verify updated product contains correct price  
 Expected result: Price matches the updated value
+
+## DELETE Requests
+
+AS-14 – Verify DELETE /products/1 deletes product successfully  
+Expected result: 200 OK and deleted product returned
+
+AS-15 – Verify deleted product ID is correct  
+Expected result: Returned product ID matches deleted product
