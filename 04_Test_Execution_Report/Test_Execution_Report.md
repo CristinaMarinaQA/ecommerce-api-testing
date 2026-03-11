@@ -11,3 +11,6 @@
 | AS-08 | POST /products | Title matches request | Title correct | PASS |
 | AS-09 | POST /products | Price matches request | Price correct | PASS |
 | AS-10 | POST /products | 400 Bad Request when title missing | 201 Created | FAIL |
+| AS-11 | PUT /products/1 | Verify API updates product | 200 OK | PASS |
+| AS-12 | PUT /products/1 | Verify updated product title | PASS | PASS |
+| AS-13 | PUT /products/1 | Verify updated product price | PASS | PASS |
