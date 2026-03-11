@@ -14,3 +14,5 @@
 | AS-11 | PUT /products/1 | Verify API updates product | 200 OK | PASS |
 | AS-12 | PUT /products/1 | Verify updated product title | PASS | PASS |
 | AS-13 | PUT /products/1 | Verify updated product price | PASS | PASS |
+| AS-14 | DELETE /products/1 | Verify product deletion | 200 OK | PASS |
+| AS-15 | DELETE /products/1 | Verify deleted product ID | PASS | PASS |
